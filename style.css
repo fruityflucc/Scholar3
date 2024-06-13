@@ -43,3 +43,134 @@ body {
 .nav-links ul li {
   list-style-type: none;
 }
+
+.nav-links ul li .link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2f2e41;
+  padding-bottom: 15px;
+  margin: 0 25px;
+}
+
+.link:hover,
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-btns .btn {
+  width: 130px;
+  height: 40px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+#Registerbtn {
+  margin-left: 15px;
+}
+
+.btn.white-btn {
+  background: #2f2e41;
+}
+
+.btn.white-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.btn.blue-btn:hover {
+  background: #2f2e41;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+
+header {
+  position: absolute;
+  top: 5rem;
+  left: 5.6rem;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.image img {
+  position: absolute;
+  left: 49rem;
+  top: 7.4rem;
+  height: 28rem;
+  width: 28rem;
+}
+
+.container h1 {
+  color: #2f2e41;
+  position: absolute;
+  top: 9rem;
+  left: 5rem;
+  height: 12rem;
+  width: 30rem;
+  font-size: 5rem;
+  line-height: 4.5rem;
+}
+
+.container h4 {
+  color: #2f2e41;
+  position: absolute;
+  width: 10rem;
+  left: 5.7rem;
+  top: 24rem;
+  font-size: 1.5rem;
+}
+
+.content .research-btn {
+  position: absolute;
+  left: 5.7rem;
+  top: 27.4rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #2f2e41;
+}
+
+.content .library-btn {
+  position: absolute;
+  left: 15rem;
+  top: 27.4rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 130px;
+  height: 40px;
+  font-weight: 600;
+}
+
+.content .research-btn:hover {
+  transition: 0.3s ease;
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+.content .library-btn:hover {
+  transition: 0.3s ease;
+  background: #2f2e41;
+  color: #fff;
+}
+
+.arrow-image img {
+  position: absolute;
+  top: 31rem;
+  left: 6rem;
+}
