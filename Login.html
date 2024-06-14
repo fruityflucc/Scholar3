@@ -8,32 +8,48 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav class="nav">
-        <div class="logo">
+      <div class="logo">
+        <a href="index.html">
           <p>SCHOLAR3</p>
-        </div>
+        </a>
+      </div>
 
-        <div class="nav-links">
-          <ul>
-            <li><a href="#" class="link active">Home</a></li>
-            <li><a href="#" class="link">About</a></li>
-            <li><a href="#" class="link">Services</a></li>
-            <li><a href="#" class="link blog">Blog</a></li>
-          </ul>
-        </div>
-
-        <div class="nav-btns">
-          <a href="index.html">
-            <button class="btn white-btn" id="loginbtn">Go Back</button>
-          </a>
-        </div>
-      </nav>
+      <div class="go-back">
+        <a href="index.html">
+          <button class="btn go-back" id="gobackbtn">Go Back</button>
+        </a>
+      </div>
     </div>
 
     <header class="container">
       <div class="content">
         <h4>Welcome!</h4>
-        <input type="text" class="username" />
+        <div class="two-forms">
+          <div class="input-box-email">
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Email/Username"
+            />
+            <i class="bx bx-envelope"></i>
+          </div>
+          <div class="input-box-password">
+            <input type="password" class="input-field" placeholder="Password" />
+            <i class="bx bx-lock-alt"></i>
+          </div>
+        </div>
+
+        <div class="login-btn">
+          <button class="btn login-btn" id="signup-btn">Login/Sign up</button>
+        </div>
+
+        <div class="google-btn">
+          <button class="btn google-btn" id="google-btn">
+            Sign in using google
+          </button>
+        </div>
+
+        <p>Forgot password?</p>
       </div>
       <div class="background">
         <img src="assets/login-page-background.svg" />
