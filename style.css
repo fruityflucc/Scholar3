@@ -8,6 +8,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background: url("assets/Background-landing-page.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -21,7 +22,7 @@ body {
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   display: flex;
   justify-content: space-around;
@@ -173,4 +174,64 @@ header {
   position: absolute;
   top: 31rem;
   left: 6rem;
+}
+
+.background img {
+  position: absolute;
+  z-index: -1;
+  top: 24rem;
+  height: 97rem;
+  width: 100rem;
+}
+
+.about-us-design img {
+  position: absolute;
+  z-index: 0;
+  height: 45rem;
+  width: 101rem;
+  top: 51rem;
+  left: -6rem;
+}
+
+.image-design img {
+  z-index: 1;
+  position: absolute;
+  height: 23rem;
+  width: 23rem;
+  top: 62rem;
+  left: 6rem;
+}
+
+.hello p {
+  position: absolute;
+  top: 55rem;
+  left: 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.zero-one p {
+  position: absolute;
+  top: 58rem;
+  left: 8rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.paragraph img {
+  position: absolute;
+  top: 46rem;
+  left: 40rem;
+  height: 48rem;
+  width: 48rem;
+}
+
+.meet-background img {
+  position: absolute;
+  z-index: -1;
+  top: 78.8rem;
+  height: 97rem;
+  width: 100rem;
 }
