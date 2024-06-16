@@ -235,3 +235,72 @@ header {
   height: 97rem;
   width: 100rem;
 }
+
+.meet-background-design img {
+  position: absolute;
+  z-index: 0;
+  height: 55rem;
+  width: 101rem;
+  top: 100rem;
+  left: -6rem;
+}
+
+.meet-hello p {
+  position: absolute;
+  top: 105rem;
+  left: 8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.zero-two p {
+  position: absolute;
+  top: 108rem;
+  left: 8rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+}
+
+.meet-team-para p {
+  position: absolute;
+  color: black;
+  top: 105rem;
+  left: 38rem;
+  height: 10rem;
+  width: 50rem;
+  font-weight: 500;
+}
+
+.meet-pic-1 img {
+  position: absolute;
+  top: 118rem;
+  left: 8rem;
+  height: 20rem;
+  width: 20rem;
+}
+
+.meet-pic-2 img {
+  position: absolute;
+  top: 118rem;
+  left: 28rem;
+  height: 20rem;
+  width: 20rem;
+}
+
+.meet-pic-3 img {
+  position: absolute;
+  top: 118rem;
+  left: 48rem;
+  height: 20rem;
+  width: 20rem;
+}
+
+.meet-pic-4 img {
+  position: absolute;
+  top: 118rem;
+  left: 68rem;
+  height: 20rem;
+  width: 20rem;
+}
