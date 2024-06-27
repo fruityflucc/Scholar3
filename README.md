@@ -4,8 +4,10 @@ Its is website that i designed for my team as a Hackathon project, which I have 
 
 ## Usage
 
-- help Writers publish their own books
-- makes it easier than trying to find a way to contact the user.
+- help Writers publish their own books.
+- Cuts out the middleman, leaving the writers paying less fee for their books.
+- Easy for the readers to access hundreds of books at once at the same place.
+- kind of like Netflix but for books.
 
 ## Screenshots
 
